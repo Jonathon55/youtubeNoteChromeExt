@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Practice",
+    "version": "1.0",
+    "description": "A little help to stay focused on your dreams",
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/watch?v=*"],
+            "js": ["./practice.js"],
+            "html": ["./index.html"]
+        }
+    ]
+
+}
